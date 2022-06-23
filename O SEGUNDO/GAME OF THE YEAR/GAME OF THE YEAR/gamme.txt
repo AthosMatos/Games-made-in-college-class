@@ -1,0 +1,47 @@
+game name:"UERN GAME"
+money=crackinho
+
+
+battle algorythn: fatores
+ 
+confianca = varies from 0 to 100 but its harder to be below 60
+(anyting below 60 must be done twice after that so the chances are smaller)
+
+"VOCE CONCERTEZA VA TIRAR 10" - above 90 -GREEN
+
+"TA  DIFICIL MAS EU ESTUDEI" - above 70 below 90 -BLUE
+
+"NAO ESTUDEI TANTO ASSIM" - above 40 below 70 - YELLOW
+
+"JOGEI LOL A SEMANA INTEIRA" - below 40 - RED
+
+notas passadas = 
+
+"TA PASSADO JA FI" - above 90 - GREEN
+
+"TA BAUM, SO VAI" - above 60 below 90 - BLUE
+
+"RAPAZ... VAI QUE DA" - above 40 below 60 - YELLOW
+
+"TRANCA O CURSO QUE JA REPROVO" - below 40 - RED
+
+Provas boas/ruins na semana = starts with zero, goes up when a good/bad test is done  (good is a win, bad a loss)
+
+DIFFICULDADE BOSS=
+
+"OLHA O BIXO VINDO MLK" - above 90 - RED
+"DEVERAS COMPLICADO" - above 60 below 90 - YELLOW
+"TA FAZIVEL FI SOH VAI" - above 40 below 60 - BLUE
+"TRANKILOO FIII" - below 40 - GREEN
+
+ITEMS:
+
+
+lembra do nada = +80-100
+pegar o celular = +40-80
+buscar algo na bolsa = +10-50
+pedir ao coleguinha = +5-20
+
+algoritimo multiplicador:
+basicamente ele vai acumulando de 0.05-0.05, quando voce escolhe sim ou nao ele mutiplica no que foi selecionado.
+EX:entao caso eu esteja perdendo de 65 - 70 pro boss e eu clicar que eu vou ganhar ele mutiplica o mutiplicador em min fazendo com que meu score aumente e dando mais chances do que u cliquei ganhar
